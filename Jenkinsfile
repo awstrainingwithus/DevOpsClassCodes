@@ -20,7 +20,7 @@ def readProb;
 	        sh "mkdir ${readProb['PMD_result']}"
 			}
 			else {
-			 echo "Skipped stage added content"
+			 echo "Skipped"
 			}
 			}
 		}
